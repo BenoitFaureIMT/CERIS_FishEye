@@ -28,5 +28,7 @@ train/valid directory :
 - labels -> contains labels, name of the file equals the name of the image the label corresponds to
 
 labels.txt -> each line corresponds to a different object being labeled, each caracteristic is separated by a space (in the following description I will use a |)
+
     index of the label in the list of names defined in data.yaml | coordinate x | coordinate y | width | height of the label
+    
 All coordinates and dimensions are normalized, this means to get the actual dimension in pixel, multiply by the actual width/height of the image
